@@ -30,7 +30,7 @@ colbrand, colsubbrand = st.columns(2)
 brand = colbrand.selectbox(
      'Brand Title:',
      ('NA', 'RT', 'Dabur', 'Abbott', 'CapriSun', 'BS', 'FS', 'Twnenty4', 
-     'ALJUF', 'Midea', 'OQ', 'MAMC')
+     'ALJUF', 'Midea', 'OQ', 'MAMC', 'UBF')
      )
 sub_brand = colsubbrand.selectbox(
     'Sub-Brand Title:',
@@ -78,7 +78,7 @@ colplacement, colspecialoffer = st.columns(2)
 placement = colplacement.selectbox(
     'Advertising Media Platform:',
     ('NA', 'FBIG', 'IG', 'FB', 'GDN', 'SRCH', 'YT', 'SNAP', 
-    'TT', 'LNKDI', 'YHO', 'SPKL', 'TDS', 'AMZN', 'DSCVRY', 'TWT', 'Nabd', 'Quora', 'GUAC', 'PMN', 'SrchAds', 'MaxPerf')
+    'TT', 'LNKDI', 'YHO', 'SPKL', 'TDS', 'AMZN', 'DSCVRY', 'TWT', 'Nabd', 'Quora', 'GUAC', 'PMN', 'SrchAds', 'MaxPerf', 'Upswiit')
 )
 special_offer = colspecialoffer.selectbox(
     'Special Offer Title:',
@@ -105,7 +105,7 @@ product_variant = colproductvariant.selectbox(
     'WobblingTyre', 'TyreWear', 'FatherSon', 'MotherSon', '28Sec', '57Sec', '15Sec', 'MotherSon&FatherSon', 'DistractedDriving', 'ClearRoad', 'PotenzaSport', 'Maserati',
     'RealEstate', 'Microfinance', 'Smooth&BaldTyres', 'IjarahHome', 'IjarahLand', 'BuildingCompletionSME', 'Sale&LeaseBack', 'Kia1', 'Kia2', 'LongLasting',
     'Product1', 'Product2', 'Product3', 'Product4', 'Tactical', '15mill', 'AutumnPlaylist', '15secCTA', '15sec', '46sec', 'TamakanSME', 'Dependability', 'PerformancePower',
-    'Fleet', 'Forklift', 'Emergency', 'Cold', 'RPM', 'Historical')
+    'Fleet', 'Forklift', 'Emergency', 'Cold', 'RPM', 'Historical', 'Video1', 'Video2', 'Video3', 'Video4')
 )
 
 collanguage, colgender = st.columns(2)
@@ -122,7 +122,7 @@ gender = colgender.selectbox(
 colage, colformat = st.columns(2)
 age = colage.selectbox(
     'Target Age:',
-    ('NA', '18to24', '25to34', '18to54', '18to50')
+    ('NA', '18to24', '25to34', '18to54', '18to50', '24+')
 )
 format = colformat.selectbox(
     'Ad Format:',
