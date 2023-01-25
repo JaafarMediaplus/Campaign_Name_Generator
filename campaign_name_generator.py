@@ -54,7 +54,8 @@ market = colmarket.selectbox(
 colstore, colarea = st.columns(2)
 store = colstore.selectbox(
     'Store Name:',
-    ('NA', 'DeiraCityCenter')
+    ('NA', 'AlNahdiR1', 'AlNahdiR2', 'Innova', 'AlDawaaR1', 'AlDawaaR2', 'AlNahdiJ1', 'AlNahdiJ2', 'AlNahdiJ3', 'AlDawaaJ1', 'AlDawaaE1', 'AlNahdiE1', 
+    'AlDawaaE2', 'SAHR1', 'SAHR2', 'SAHR3', 'SAHR4', 'DallahK1', 'SAHK1', 'AlmanaK1', 'MouwasatK1', 'MouwasatJU1', 'SAHQ1', 'IMCHJeddah', 'SFHJeddah')
 )
 area = colarea.selectbox(
     'Target Area:',
