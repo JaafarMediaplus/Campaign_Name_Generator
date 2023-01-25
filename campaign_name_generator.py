@@ -35,7 +35,7 @@ brand = colbrand.selectbox(
 sub_brand = colsubbrand.selectbox(
     'Sub-Brand Title:',
     ('NA', 'AlwaysOn', 'SME', 'Auto', 'CashIndividual', 'UsedCars', 'LunarDialSeries', 'Dermoviva', 'Amla', 'Vatika', 'RTEcom', 'FSL', 'ALJapp',
-     'Fleet',  'Forklift')
+     'Fleet',  'Forklift', 'FSLGeofence')
     )
 
 colregion, colmarket = st.columns(2)
@@ -58,7 +58,8 @@ store = colstore.selectbox(
 )
 area = colarea.selectbox(
     'Target Area:',
-    ('NA', 'Dubai', 'AbuDahbi', 'Riyadh', 'Jeddah')
+    ('NA', 'Dubai', 'AbuDahbi', 'Riyadh', 'Jeddah',  'Hospitals', 'RiyadhHospitals', 'KhobarHospitals', 'JeddahHospitals', 'BuraydahBranchQasim', 
+    'Jubail', 'Pharmacies', 'RiyadhPharmacies', 'JeddahPharmacies', 'EasternRegionPharmacies')
 )
 
 colbuytype, coltargeting = st.columns(2)
