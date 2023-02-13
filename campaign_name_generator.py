@@ -484,6 +484,8 @@ elif buytype == 'RnFAr':
     coded_buytype = buytype.replace('RnFAr', 'BT011')
 elif buytype == 'CPSU':
     coded_buytype = buytype.replace('CPSU', 'BT012')
+elif buytype == 'CPM':
+    coded_buytype = buytype.replace('CPM', 'BT013')
 else:
     coded_buytype = buytype.replace('Null', 'BT000')
 
