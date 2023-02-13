@@ -51,7 +51,7 @@ store = colstore.selectbox(
 )
 area = colarea.selectbox(
     'Target Area:',
-    ('NA', 'Dubai', 'AbuDahbi', 'Riyadh', 'Jeddah',  'Hospitals', 'RiyadhHospitals', 'KhobarHospitals', 'JeddahHospitals', 'BuraydahBranchQasim', 
+    ('NA', 'Dubai', 'AbuDhabi', 'Riyadh', 'Jeddah',  'Hospitals', 'RiyadhHospitals', 'KhobarHospitals', 'JeddahHospitals', 'BuraydahBranchQasim', 
     'Jubail', 'Pharmacies', 'RiyadhPharmacies', 'JeddahPharmacies', 'EasternRegionPharmacies')
 )
 
