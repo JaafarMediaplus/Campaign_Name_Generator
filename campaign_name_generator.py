@@ -580,11 +580,11 @@ google_ad_name = (product_variant + '_' + special_offer + '_' + language + '_' +
 
 coded_search_campaign_name = (coded_brand + '_' + coded_sub_brand + '_' + coded_product + '_' + coded_region + '_' + coded_market + '_' + coded_area + '_' + coded_store + '_' +
                         placement + '_' + targeting + '_' + coded_keywordgroup + '_' + coded_phase + '_' + coded_buytype + '_' + coded_specialoffer + '_' + 
-                        language + '_' + gender + '_' + age + '_' + month + '_' + year)
+                        language + '_' + gender + '_' + age + '_' + month + '_' + year + '_' + device_name)
 
 coded_google_campaign_name = (coded_brand + '_' + coded_sub_brand + '_' + coded_product + '_' + coded_region + '_' + coded_market + '_' + coded_area + '_' + coded_store + '_' +
                         placement + '_' + targeting + '_' + coded_phase + '_' + coded_buytype + '_' + coded_specialoffer + '_' + 
-                        language + '_' + gender + '_' + age + '_' + month + '_' + year)
+                        language + '_' + gender + '_' + age + '_' + month + '_' + year  + '_' + device_name)
 
 
 # LinkedIn Campaign Structure
