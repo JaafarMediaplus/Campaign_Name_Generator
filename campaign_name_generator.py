@@ -34,7 +34,7 @@ brand = colbrand.selectbox(
      )
 sub_brand = colsubbrand.selectbox(
     'Sub-Brand Title:',
-    ('NA', 'AlwaysOn', 'SME', 'Auto', 'CashIndividual', 'UsedCars', 'LunarDialSeries', 'Dermoviva', 'Amla', 'Vatika', 'RTEcom', 'FSL', 'ALJapp',
+    ('NA', 'AlwaysOn', 'SME', 'Auto', 'CashIndividual', 'UsedCars', 'LunarDialSeries', 'FSL', 'ALJapp',
      'Fleet',  'Forklift', 'FSLGeofence')
     )
 
