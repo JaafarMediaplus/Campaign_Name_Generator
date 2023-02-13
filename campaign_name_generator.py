@@ -152,9 +152,7 @@ month = colmonth.selectbox(
 st.title('')
 keyword_group = st.selectbox(
     'Keyword Group (For Google Search):',
-    ('NA', 'GNRC', 'COMPT', 'BRND', 'CitiesKWsEnglishUAE1', 'CitiesKWsEnglishDXB1', 'CitiesKWsEnglishAjman1',
-    'CitiesKWsEnglishSharjah', 'CitiesKWsEnglishRak', 'CitiesKWsEnglishDMCC', 'CitiesKWsEnglishFujairah',
-    'CitiesKWsEnglishShams', 'CitiesKWsEnglishRakez', 'TradeBusinessLicense', 'CompanyKeywords', 'EcommerceKeywords',
+    ('NA', 'GNRC', 'COMPT', 'BRND', 'TradeBusinessLicense', 'CompanyKeywords', 'EcommerceKeywords',
     'FreelanceKeywords', 'Brand&Generic')
 )
 
