@@ -5,6 +5,8 @@ import pandas as pd
 import numpy as np
 
 
+st.title('Campaign Name Generator')
+
 st.title("")
 
 # BEGINNING OF SECTION 1 ///
