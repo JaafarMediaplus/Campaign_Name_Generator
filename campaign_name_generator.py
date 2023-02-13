@@ -281,7 +281,7 @@ elif product == 'Excellence':
 elif product == 'Stars':
     coded_product = product.replace('Stars', 'P032')
 else:
-    coded_product = product.repalce('Null', 'P000')
+    coded_product = product.replace('Null', 'P000')
 
 
 # Region Coding
