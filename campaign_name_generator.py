@@ -178,6 +178,10 @@ elif brand == 'FS':
     coded_brand = brand.replace('FS', 'B006')
 elif brand == 'Twenty4':
     coded_brand = brand.replace('Twenty4', 'B007')
+elif brand == 'ALJUF':
+    coded_brand = brand.replace('ALJUF', 'B008')
+elif brand == 'Midea':
+    coded_brand = brand.replace('Midea', 'B009')
 elif brand == 'OQ':
     coded_brand = brand.replace('OQ', 'B010')
 elif brand == 'MAMC':
