@@ -126,7 +126,7 @@ age = colage.selectbox(
 format = colformat.selectbox(
     'Ad Format:',
     ('NA', 'Native', 'StaticImage', 'Video', 'Carousel', 'Catalog', 'Responsive', 
-    'Expended', 'Gmail', 'Discovery', 'HTML5', 'StaticDisplay', 'Multiple', 'DSCVRYAd', 'DSCVRYCarouselAd', 'Banner', 'SkippableVideo')
+    'Expended', 'Gmail', 'Discovery', 'HTML5', 'StaticDisplay', 'Multiple', 'DSCVRYAd', 'DSCVRYCarouselAd', 'Banner', 'SkippableAd')
 )
 
 # device
