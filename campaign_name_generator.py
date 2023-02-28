@@ -79,7 +79,7 @@ placement = colplacement.selectbox(
 )
 special_offer = colspecialoffer.selectbox(
     'Special Offer Title:',
-    ('NA', 'Contextual', 'FreeBHD3', 'SpecialOffer', 'RamadanWrapUp', 'Testimonial', 'Buy2Get1Free', 'LastDays', 'NationalDay', 'ClickButton')
+    ('NA', 'Contextual', 'FreeBHD3', 'SpecialOffer', 'RamadanWrapUp', 'Testimonial', 'Buy2Get1Free', 'LastDays', 'NationalDay', 'ClickButton', 'Ramadan')
 )
 
 
@@ -103,7 +103,7 @@ product_variant = colproductvariant.selectbox(
     'WobblingTyre', 'TyreWear', 'FatherSon', 'MotherSon', '28Sec', '57Sec', '15Sec', 'MotherSon&FatherSon', 'DistractedDriving', 'ClearRoad', 'PotenzaSport', 'Maserati',
     'RealEstate', 'Microfinance', 'Smooth&BaldTyres', 'IjarahHome', 'IjarahLand', 'BuildingCompletionSME', 'Sale&LeaseBack', 'Kia1', 'Kia2', 'LongLasting',
     'Product1', 'Product2', 'Product3', 'Product4', 'Tactical', '15mill', 'AutumnPlaylist', '15secCTA', '15sec', '46sec', 'TamakanSME', 'Dependability', 'PerformancePower',
-    'Fleet', 'Forklift', 'Emergency', 'Cold', 'RPM', 'Historical', 'Video1', 'Video2', 'Video3', 'Video4')
+    'Fleet', 'Forklift', 'Emergency', 'Cold', 'RPM', 'Historical', 'Video1', 'Video2', 'Video3', 'Video4', 'Carousel1', 'Carousel2')
 )
 
 # language and gender
@@ -126,7 +126,7 @@ age = colage.selectbox(
 format = colformat.selectbox(
     'Ad Format:',
     ('NA', 'Native', 'StaticImage', 'Video', 'Carousel', 'Catalog', 'Responsive', 
-    'Expended', 'Gmail', 'Discovery', 'HTML5', 'StaticDisplay', 'Multiple', 'DSCVRYAd', 'DSCVRYCarouselAd', 'Banner')
+    'Expended', 'Gmail', 'Discovery', 'HTML5', 'StaticDisplay', 'Multiple', 'DSCVRYAd', 'DSCVRYCarouselAd', 'Banner', 'SkippableVideo')
 )
 
 # device
@@ -511,6 +511,8 @@ elif special_offer == 'NationalDay':
     coded_specialoffer = special_offer.replace('NationalDay', 'SO008')
 elif special_offer == 'ClickButton':
     coded_specialoffer = special_offer.replace('ClickButton', 'SO009')
+elif special_offer == 'Ramadan':
+    coded_specialoffer = special_offer.replace('Ramadan', 'SO010')
 else:
     coded_specialoffer = special_offer.replace('Null', 'SO000')
 
