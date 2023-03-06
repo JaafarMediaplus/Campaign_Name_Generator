@@ -92,7 +92,7 @@ product = colproduct.selectbox(
     'Product Name:',
     ('NA', 'All', 'WashingMachine', 'System', 'CRM', 'Dueler', 'Potenza', 'Alenza', 'Ecopia', 'ContentHub', 'UGC', 'SME', 'Auto',
      'Polyethylene', 'Polypropylene', 'FoodPackaging', 'SME', 'Toyota', 'Kia', 'Hyundai', 'Geely', 'CashIndividual', 'UsedCars', 'DistractedDriving', 'ClearRoad',
-    'RealEstate', 'Microfinance', 'TodayTab', 'SrchTab', 'SrchResults', 'ProductPage', 'app', 'Excellence', 'Stars')
+    'RealEstate', 'Microfinance', 'TodayTab', 'SrchTab', 'SrchResults', 'ProductPage', 'app', 'Excellence', 'Stars', 'EgyptCampingSpots')
 )
 product_variant = colproductvariant.selectbox(
     'Product Variant/Creative Name:',
@@ -288,9 +288,10 @@ elif product == 'Excellence':
     coded_product = product.replace('TodayTab', 'P031')
 elif product == 'Stars':
     coded_product = product.replace('Stars', 'P032')
+elif product == 'EgyptCampingSpots':
+    coded_product = product.replace('Stars', 'P033')
 else:
     coded_product = product.replace('Null', 'P000')
-
 
 # Region Coding
 if region == 'Multiple':
