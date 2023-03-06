@@ -103,7 +103,7 @@ product_variant = colproductvariant.selectbox(
     'WobblingTyre', 'TyreWear', 'FatherSon', 'MotherSon', '28Sec', '57Sec', '15Sec', 'MotherSon&FatherSon', 'DistractedDriving', 'ClearRoad', 'PotenzaSport', 'Maserati',
     'RealEstate', 'Microfinance', 'Smooth&BaldTyres', 'IjarahHome', 'IjarahLand', 'BuildingCompletionSME', 'Sale&LeaseBack', 'Kia1', 'Kia2', 'LongLasting',
     'Product1', 'Product2', 'Product3', 'Product4', 'Tactical', '15mill', 'AutumnPlaylist', '15secCTA', '15sec', '46sec', 'TamakanSME', 'Dependability', 'PerformancePower',
-    'Fleet', 'Forklift', 'Emergency', 'Cold', 'RPM', 'Historical', 'Video1', 'Video2', 'Video3', 'Video4', 'Carousel1', 'Carousel2', 'BannerMan', 'BannerWoman')
+    'Fleet', 'Forklift', 'Emergency', 'Cold', 'RPM', 'Historical', 'Video1', 'Video2', 'Video3', 'Video4', 'Carousel1', 'Carousel2', 'BannerMan', 'BannerWoman', 'Playlist')
 )
 
 # language and gender
