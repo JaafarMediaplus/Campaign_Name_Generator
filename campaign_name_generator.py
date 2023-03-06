@@ -218,7 +218,7 @@ elif sub_brand == 'Forklift':
 elif sub_brand == 'FSLGeofence':
     coded_sub_brand = sub_brand.replace('FSLGeofence', 'SB011')
 elif sub_brand == 'NonBranded':
-    coded_sub_brand = sub_brand.replace('FSLGeofence', 'SB012')
+    coded_sub_brand = sub_brand.replace('NonBranded', 'SB012')
 else:
     coded_sub_brand = sub_brand.replace('Null', 'SB0')
 
