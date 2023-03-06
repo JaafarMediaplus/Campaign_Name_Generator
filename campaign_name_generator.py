@@ -29,7 +29,7 @@ brand = colbrand.selectbox(
 sub_brand = colsubbrand.selectbox(
     'Sub-Brand Title:',
     ('NA', 'AlwaysOn', 'SME', 'Auto', 'CashIndividual', 'UsedCars', 'LunarDialSeries', 'FSL', 'ALJapp',
-     'Fleet',  'Forklift', 'FSLGeofence')
+     'Fleet',  'Forklift', 'FSLGeofence', 'NonBranded')
     )
 
 # Region and market
@@ -217,6 +217,8 @@ elif sub_brand == 'Forklift':
     coded_sub_brand = sub_brand.replace('Forklift', 'SB010')
 elif sub_brand == 'FSLGeofence':
     coded_sub_brand = sub_brand.replace('FSLGeofence', 'SB011')
+elif sub_brand == 'NonBranded':
+    coded_sub_brand = sub_brand.replace('FSLGeofence', 'SB012')
 else:
     coded_sub_brand = sub_brand.replace('Null', 'SB0')
 
