@@ -92,7 +92,7 @@ product = colproduct.selectbox(
     'Product Name:',
     ('NA', 'All', 'WashingMachine', 'System', 'CRM', 'Dueler', 'Potenza', 'Alenza', 'Ecopia', 'ContentHub', 'UGC', 'SME', 'Auto',
      'Polyethylene', 'Polypropylene', 'FoodPackaging', 'SME', 'Toyota', 'Kia', 'Hyundai', 'Geely', 'CashIndividual', 'UsedCars', 'DistractedDriving', 'ClearRoad',
-    'RealEstate', 'Microfinance', 'TodayTab', 'SrchTab', 'SrchResults', 'ProductPage', 'app', 'Excellence', 'Stars', 'EgyptCampingSpots')
+    'RealEstate', 'Microfinance', 'TodayTab', 'SrchTab', 'SrchResults', 'ProductPage', 'app', 'Excellence', 'Stars', 'EgyptCampingSpots', 'Social')
 )
 product_variant = colproductvariant.selectbox(
     'Product Variant/Creative Name:',
@@ -104,7 +104,7 @@ product_variant = colproductvariant.selectbox(
     'RealEstate', 'Microfinance', 'Smooth&BaldTyres', 'IjarahHome', 'IjarahLand', 'BuildingCompletionSME', 'Sale&LeaseBack', 'Kia1', 'Kia2', 'LongLasting',
     'Product1', 'Product2', 'Product3', 'Product4', 'Tactical', '15mill', 'AutumnPlaylist', '15secCTA', '15sec', '46sec', 'TamakanSME', 'Dependability', 'PerformancePower',
     'Fleet', 'Forklift', 'Emergency', 'Cold', 'RPM', 'Historical', 'Video1', 'Video2', 'Video3', 'Video4', 'Carousel1', 'Carousel2', 'BannerMan', 'BannerWoman', 'Playlist',
-    'Alenza')
+    'Alenza', 'MarPost1', 'MarPost2','MarPost3', 'MarPost4', 'MarPost5')
 )
 
 # language and gender
@@ -290,7 +290,9 @@ elif product == 'Excellence':
 elif product == 'Stars':
     coded_product = product.replace('Stars', 'P032')
 elif product == 'EgyptCampingSpots':
-    coded_product = product.replace('Stars', 'P033')
+    coded_product = product.replace('EgyptCampingSpots', 'P033')
+elif product == 'Social':
+    coded_product = product.replace('Social', 'P034')
 else:
     coded_product = product.replace('Null', 'P000')
 
