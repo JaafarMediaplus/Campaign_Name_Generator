@@ -14,7 +14,7 @@ st.title("")
 # Phase
 phase = st.selectbox(
     'Campaign Phase:',
-    ('NA', 'AWRNS', 'TRFC', 'CONV', 'APP')
+    ('NA', 'AWRNS', 'TRFC', 'CONV', 'APP', 'Engagement')
 )
 
 st.title('')
@@ -29,7 +29,7 @@ brand = colbrand.selectbox(
 sub_brand = colsubbrand.selectbox(
     'Sub-Brand Title:',
     ('NA', 'AlwaysOn', 'SME', 'Auto', 'CashIndividual', 'UsedCars', 'LunarDialSeries', 'FSL', 'ALJapp',
-     'Fleet',  'Forklift', 'FSLGeofence', 'NonBranded', 'Stories')
+     'Fleet',  'Forklift', 'FSLGeofence', 'NonBranded', 'Stories',  'Social')
     )
 
 # Region and market
@@ -226,6 +226,8 @@ elif sub_brand == 'NonBranded':
     coded_sub_brand = sub_brand.replace('NonBranded', 'SB012')
 elif sub_brand == 'Stories':
     coded_sub_brand = sub_brand.replace('Stories', 'SB013')
+elif sub_brand == 'Social':
+    coded_sub_brand = sub_brand.replace('Social', 'SB014')
 else:
     coded_sub_brand = sub_brand.replace('Null', 'SB0')
 
@@ -474,6 +476,8 @@ elif phase == 'CONV':
     coded_phase = phase.replace('CONV', 'PH003')
 elif phase == 'APP':
     coded_phase = phase.replace('APP', 'PH004')
+elif phase == 'Engagement':
+    coded_phase = phase.replace('Engagement', 'PH005')    
 else:
     coded_phase = phase.replace('Null', 'PH000')
 
