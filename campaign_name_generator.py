@@ -24,7 +24,7 @@ colbrand, colsubbrand = st.columns(2)
 brand = colbrand.selectbox(
      'Brand Title:',
      ('NA', 'RT', 'Dabur', 'Abbott', 'CapriSun', 'BS', 'FS', 'Twnenty4', 
-     'ALJUF', 'Midea', 'OQ', 'MAMC', 'UBF')
+     'ALJUF', 'Midea', 'OQ', 'MAMC', 'UBF', 'ALJapp')
      )
 sub_brand = colsubbrand.selectbox(
     'Sub-Brand Title:',
@@ -192,6 +192,8 @@ elif brand == 'MAMC':
     coded_brand = brand.replace('MAMC', 'B011')
 elif brand == 'UBF':
     coded_brand = brand.replace('UBF', 'B012')
+elif brand == 'ALJapp':
+    coded_brand = brand.replace('ALJapp', 'B013')
 else:
     coded_brand = brand.replace('Null', 'B000')
 
