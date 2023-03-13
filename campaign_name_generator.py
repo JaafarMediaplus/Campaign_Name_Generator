@@ -75,11 +75,12 @@ colplacement, colspecialoffer = st.columns(2)
 placement = colplacement.selectbox(
     'Advertising Media Platform:',
     ('NA', 'FBIG', 'IG', 'FB', 'GDN', 'SRCH', 'YT', 'SNAP', 
-    'TT', 'LNKDI', 'YHO', 'SPKL', 'TDS', 'AMZN', 'DSCVRY', 'TWT', 'Nabd', 'Quora', 'GUAC', 'PMN', 'SrchAds', 'MaxPerf', 'Upswiit')
+    'TT', 'LNKDI', 'YHO', 'SPKL', 'TDS', 'AMZN', 'DSCVRY', 'TWT', 'Nabd', 'Quora', 'GUAC', 'PMN', 'SrchAds', 'MaxPerf', 'Upswiit', 'AppleAds')
 )
 special_offer = colspecialoffer.selectbox(
     'Special Offer Title:',
-    ('NA', 'Contextual', 'FreeBHD3', 'SpecialOffer', 'RamadanWrapUp', 'Testimonial', 'Buy2Get1Free', 'LastDays', 'NationalDay', 'ClickButton', 'Ramadan')
+    ('NA', 'Contextual', 'FreeBHD3', 'SpecialOffer', 'RamadanWrapUp', 'Testimonial', 'Buy2Get1Free', 'LastDays', 'NationalDay', 'ClickButton', 'Ramadan', 
+    'SearchTab', 'SearchResults')
 )
 
 
@@ -527,6 +528,10 @@ elif special_offer == 'ClickButton':
     coded_specialoffer = special_offer.replace('ClickButton', 'SO009')
 elif special_offer == 'Ramadan':
     coded_specialoffer = special_offer.replace('Ramadan', 'SO010')
+elif special_offer == 'SearchTab':
+    coded_specialoffer = special_offer.replace('SearchTab', 'SO011')
+elif special_offer == 'SearchResults':
+    coded_specialoffer = special_offer.replace('SearchResults', 'SO012')
 else:
     coded_specialoffer = special_offer.replace('Null', 'SO000')
 
