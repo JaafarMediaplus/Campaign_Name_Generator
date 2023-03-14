@@ -29,7 +29,7 @@ brand = colbrand.selectbox(
 sub_brand = colsubbrand.selectbox(
     'Sub-Brand Title:',
     ('NA', 'AlwaysOn', 'SME', 'Auto', 'CashIndividual', 'UsedCars', 'LunarDialSeries', 'FSL', 'ALJapp',
-     'Fleet',  'Forklift', 'FSLGeofence', 'NonBranded', 'Stories',  'Social')
+     'Fleet',  'Forklift', 'FSLGeofence', 'NonBranded', 'Stories',  'Social', 'BibanEvent')
     )
 
 # Region and market
@@ -106,7 +106,7 @@ product_variant = colproductvariant.selectbox(
     'RealEstate', 'Microfinance', 'Smooth&BaldTyres', 'IjarahHome', 'IjarahLand', 'BuildingCompletionSME', 'Sale&LeaseBack', 'Kia1', 'Kia2', 'LongLasting',
     'Product1', 'Product2', 'Product3', 'Product4', 'Tactical', '15mill', 'AutumnPlaylist', '15secCTA', '15sec', '46sec', 'TamakanSME', 'Dependability', 'PerformancePower',
     'Fleet', 'Forklift', 'Emergency', 'Cold', 'RPM', 'Historical', 'Video1', 'Video2', 'Video3', 'Video4', 'Carousel1', 'Carousel2', 'BannerMan', 'BannerWoman', 'Playlist',
-    'Alenza', 'MarPost1', 'MarPost2','MarPost3', 'MarPost4', 'MarPost5', 'ConsGoods', 'SMEfleet', 'Story1', 'Story2', 'Story3', 'Story4', 'MG')
+    'Alenza', 'MarPost1', 'MarPost2','MarPost3', 'MarPost4', 'MarPost5', 'ConsGoods', 'SMEfleet', 'Story1', 'Story2', 'Story3', 'Story4', 'MG', 'Biban')
 )
 
 # language and gender
@@ -228,6 +228,8 @@ elif sub_brand == 'Stories':
     coded_sub_brand = sub_brand.replace('Stories', 'SB013')
 elif sub_brand == 'Social':
     coded_sub_brand = sub_brand.replace('Social', 'SB014')
+elif sub_brand == 'Biban':
+    coded_sub_brand = sub_brand.replace('Biban', 'SB015')    
 else:
     coded_sub_brand = sub_brand.replace('Null', 'SB0')
 
